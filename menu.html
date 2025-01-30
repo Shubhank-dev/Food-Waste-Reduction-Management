@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+    background-color: antiquewhite;
+}
+nav{
+    /* width:85%; */
+    background-color:azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:1vw 8vw;
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.15);
+    transition: 0.5ms;
+}
+nav:hover{
+    box-shadow: 20px 20px 100px rgb(0,0,0,0.15);
+}
+nav img{
+    width: 150px;
+    cursor: pointer;
+}
+nav .navigation ul{
+    display:inline-flex;
+    justify-content:flex-end;
+    align-items:center; 
+}
+nav .navigation ul li{
+    list-style:none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration:solid;
+    color: rgb(21,21,100);
+    font-size: 30px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+nav .navigation ul li a:hover {
+    color: antiquewhite;
+    font-size: 55px;
+    
+}
+
+.rs{
+    font-family: "Caveat", serif;
+    font-size: 6vw;
+    text-align: center;
+    
+
+}
+#img{
+    background-image: linear-gradient(rgba(9,5,44,0.3), rgba(5,4,46,0.7) ),url(../photo-collage.png.png) ;
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: bisque;
+    padding: 10%;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../Screenshot 2025-01-30 195211.png" alt="" width="150px">
+            <div class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1 id="img">Tonns of food are wasted daily but <br><br><br>Millions of Humans still sleep hungary every night...</p>
+    </section>
+    <section id="services">
+        <hr size="4" color="black">
+        <h1 class="rs">Every single Piece Matters!!</h1>
+       
+        <hr size="2" color="black" width="50%">
+        
+        <div  id="services">
+           <p id="ser">"Food waste is a critical global issue with severe environmental, economic, and social consequences. Every year, millions of tons of food are discarded, contributing to greenhouse gas emissions, deforestation, and excessive water usage. Reducing food waste can help mitigate climate change by lowering methane emissions from landfills and conserving valuable resources used in food production. Economically, food waste leads to financial losses for households, businesses, and farmers, while millions of people struggle with hunger worldwide. By minimizing waste, we can redirect surplus food to those in need, improving food security and reducing inequality. Additionally, cutting down food waste encourages responsible consumption, reduces strain on landfills, and promotes a sustainable food system. Simple steps such as better meal planning, proper food storage, and donating excess food to charities can make a significant impact. Addressing food waste is not just an environmental necessity—it is a moral and economic imperative for a sustainable future."</p> 
+        </div>
+        
+</body>
+</html>

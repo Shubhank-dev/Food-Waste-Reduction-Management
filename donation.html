@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Divs with Hover Effect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(one.jpg);
+            background-repeat: no-repeat ;
+            background-size: cover;
+            opacity: 0.1px;
+            
+        }
+
+        .main-div {
+            display: flex;
+            gap: 20px;
+            width: 1000px;
+            height: 400px;
+            /* background-image:url(WhatsApp Image 2025-01-30 at 7.13.38 PM.jpeg) ; */
+        }
+
+        .sub-div {
+            background-color:transparent;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 250px;
+            height: 300px;
+        }
+
+        .sub-div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .sub-div h3 {
+            margin: 0 0 10px;
+            font-size: 1.5rem;
+            color:whitesmoke;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .sub-div h3:hover {
+            color: #007BFF;
+        }
+
+        .sub-div img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .sub-div img:hover {
+            transform: scale(1.1);
+        }
+        .sub-div p{
+            /* background-color: transparent; */
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="sub-div">
+            <a href="vol.html"><h3>signup? volnteer</h3>
+            <img src="two.jpg" alt="Placeholder Image 1"></a>
+            <p>Every meal you deliver carries not just food but the promise of care, compassion, and brighter days ahead.</p>
+        </div>
+        <div class="sub-div">
+            <a href="resto.html"><h3>signup? donor</h3>
+            <img src="three.jpg" alt="Placeholder Image 2"></a>
+            <p>Every meal you contribute is a lifeline, a reminder that kindness can change the world.</p>
+        </div>
+        <div class="sub-div">
+            <a href="ngo.html"><h3>signup? NGO</h3>
+            <img src="four.jpg" alt="Placeholder Image 3"></a>
+            <p>Through your work, you prove that a world without hunger is not just a dream but a possibility within reach.</p>
+        </div>
+    </div>
+</body>
+</html
